@@ -99,6 +99,12 @@ window.addEventListener("DOMContentLoaded", () => {
 
                 didErrorOccur = true;
             } else {
+                if (userBirthday[item] < 1) {
+                    setError(item, "Must be a valid " + item + ".");
+
+                    didErrorOccur = true;
+                }
+
                 if (item == "year") {
                     const currentYear = currentDate.getFullYear();
                     const insertedYear = +userBirthday[item];
