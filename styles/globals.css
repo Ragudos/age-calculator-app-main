@@ -207,6 +207,8 @@ input:focus-visible {
 
     pointer-events: none;
     touch-action: none;
+
+    z-index: 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -225,6 +227,8 @@ input:focus-visible {
     border-radius: 100%;
 
     cursor: pointer;
+
+    z-index: 1;
 
     background-color: hsl(var(--clr-primary-purple));
 }
