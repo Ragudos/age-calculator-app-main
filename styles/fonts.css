@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Regular.ttf"), local("Poppins-Regular.ttf"), format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Italic.ttf"), local("Poppins-Italic.ttf"), format("truetype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Bold.ttf"), local("Poppins-Bold.ttf"), format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-BoldItalic.ttf"), local("Poppins-BoldItalic.ttf"), format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-ExtraBold.ttf"), local("Poppins-ExtraBold.ttf"), format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-ExtraBoldItalic.ttf"), local("Poppins-ExtraBoldItalic.ttf"), format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
